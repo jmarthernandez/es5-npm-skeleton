@@ -1,0 +1,32 @@
+{
+  "name": "@jmarthernandez/es5-npm-skeleton",
+  "version": "1.0.0",
+  "description": "replace me",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard --verbose | snazzy && mocha --reporter spec"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "semistandard": {
+    "globals": [ "describe", "it" ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarthernandez/es5-npm-skeleton.git"
+  },
+  "author": "Justin Hernandez <jmarthernandez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmarthernandez/es5-npm-skeleton/issues"
+  },
+  "homepage": "https://github.com/jmarthernandez/es5-npm-skeleton#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "pre-commit": "^1.2.2",
+    "semistandard": "^10.0.0",
+    "snazzy": "^7.0.0"
+  }
+}
